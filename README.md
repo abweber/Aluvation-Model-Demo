@@ -128,10 +128,10 @@ The following Devices have been created for each XDK:
 ### Rule
 The following two rules have been set-up:
 
-Hannover-Messe-001
+Hannover-Messe-001,
 UUID: ebcd6772-e2b8-4ee5-87b5-42257bc46acb
 
-Hannover-Messe-002
+Hannover-Messe-002,
 UUID: 185e2145-a32a-4c0a-b6d1-b5ab05a4a34a	
 
 Here you can find the original code for the Hannover-Messe-002 Rule:
