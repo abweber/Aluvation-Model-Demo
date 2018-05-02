@@ -3,7 +3,9 @@ Model of an Aluvation container. LED color change triggered by the luminisoty se
 
 ## Introduction
 The model is based on the product offer from Aluvation: Mobile micro-factories contained in standard containers. With the help from relayr, Aluvation is able to offer heat treatment as a service: Connecting treatment plants allows to obtain insights about health, proper usage, consumption, as well as machine lifetime and allows for billing integration for as a Service Models.
-The model allows to manually roll in and out a platform, simulating the conveyor belts that feed the heat treatment micro factory. An XDK painted in silver simbolises the Aluminum pieces which are treated by the micro-factory. The XDK light sensor is used to detect if the product is inside, or outside the container and triggers the color of the LED lights within and below the container model: Blue when the XDK is outside the container and red when it is inside.  
+The model allows to manually roll in and out a platform, simulating the conveyor belts that feed the heat treatment micro factory. An XDK painted in silver simbolises the Aluminum pieces which are treated by the micro-factory. The XDK light sensor is used to detect if the product is inside, or outside the container and triggers the color of the LED lights within and below the container model: Blue when the XDK is outside the container and red when it is inside. 
+Pictures from the container at the Aluvation headquarter can be found here: https://drive.google.com/drive/folders/17ZAkpHwwZ-q4a2Lg3tPu1kYnOXhigLxZ
+Video and pictures from the demo model can be seen here: https://drive.google.com/drive/folders/121tLeBBAJSD7Dl_YYV08-tmycjnmNsr3
 
 ## Smart Light Set-Up
 1.	Install the LIFX app in your phone.
