@@ -2,9 +2,10 @@
 Model of an Aluvation container. LED color change triggered by the luminisoty sensor of the provisioned XDK.
 
 ## Introduction
+The model is based on the product offer from Aluvation: Mobile micro-factories contained in standard containers. With the help from relayr, Aluvation is able to offer heat treatment as a service: Connecting treatment plants allows to obtain insights about health, proper usage, consumption, as well as machine lifetime and allows for billing integration for as a Service Models.
+The model allows to manually roll in and out a platform, simulating the conveyor belts that feed the heat treatment micro factory. An XDK painted in silver simbolises the Aluminum pieces which are treated by the micro-factory. The XDK light sensor is used to detect if the product is inside, or outside the container and triggers the color of the LED lights within and below the container model: Blue when the XDK is outside the container and red when it is inside.  
 
-
-### Smart Light Set-Up
+## Smart Light Set-Up
 1.	Install the LIFX app in your phone.
 2.	Login with the following credentials:
 marketing@relayr.io
@@ -38,7 +39,7 @@ During the process, if requested update the software and push it into the lights
 App will prompt: “asked light to download SW”, “Software downloading, when complete light will restart” and finally “Restart successful”.
 If the update is interrupted, start it one more time and follow the instructions.
 
-#### Make sure all the lights are accessible by the LIFX API
+### Make sure all the lights are accessible by the LIFX API
 In a browser go to: 
 https://api.developer.lifx.com/docs/list-lights
 (Previously login with the login and password provided in step 2).
@@ -78,7 +79,7 @@ Token01: c7d984170d4c3fd13eeda804cbc957344354a84a96b6f80eaf1b41b7d2c53b68
 Token02: ce7ba337651eaac43e57cfb56b70e07602e0432f54d035195e602ad61fae0ec4
 ```
 
-### XDK Set-Up
+## XDK Set-Up
 You will need:
 1.	Micro SD Card Adapter
 2.	Program to edit the configuration file (i.e. Sublime Text, https://www.sublimetext.com/)
@@ -125,7 +126,7 @@ The following Devices have been created for each XDK:
   "modelVersion": 2
 ```
 
-### Rule
+## Rules
 The following two rules have been set-up:
 
 Hannover-Messe-001,
@@ -201,3 +202,8 @@ rule.on('measurement', function(measurement) {
             }
 });
 ```
+## Credits
+created by Andreas Weber and Michael O'Malley<br>
+Based on the light sensing rule by [Andy Ryan](mailto:andy.ryan@relayr.io)
+
+date: April 2018
