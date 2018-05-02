@@ -209,4 +209,4 @@ rule.on('measurement', function(measurement) {
 Created by [Andreas Weber](mailto:andreas.weber@relayr.io), [Michael O'Malley](michael.omalley@relayr.io) and [Michal Kraus](michal@relayr.io)<br>
 Based on the light sensing rule by [Andy Ryan](mailto:andy.ryan@relayr.io)
 
-date: April 2018
+Date: April 2018
